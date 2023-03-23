@@ -4,7 +4,7 @@ export default function FormCard({
   name,
   email,
   phone,
-  hobbies,
+  hobbies, 
   gender,
   file,
 }) {
