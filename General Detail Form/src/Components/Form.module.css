@@ -1,0 +1,154 @@
+.main_container {
+  background-color: #fafafa;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 18px;
+  padding: 25px 55px 45px 55px;
+}
+
+.main_container > div h2 {
+  border-bottom: 3px solid #9f10ca;
+  font-weight: 700;
+  width: 70%;
+  margin: auto;
+}
+
+.main_container > div {
+  padding: 0 0 30px 0;
+}
+
+.container-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+form > input {
+  padding: 10px;
+  width: 100%;
+  background: #ffffff4d 0% 0% no-repeat padding-box;
+  border: 1px solid #1a1a1a;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+form > button {
+  width: 105%;
+  padding: 15px;
+  border: none;
+  font: normal normal bold 16px/17px Roboto;
+  color: #ffffff;
+  background: #9f10ca 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.BtnDisable {
+  background-color: #e079ff;
+}
+
+.BtnDisable:hover {
+  background-color: #9f10ca;
+}
+
+.Document {
+  width: 100%;
+  border: 0.2px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Document > span {
+  background-color: #c269dd;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 35%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.Document > span:hover{
+    background-color: #9f10ca;
+}
+
+.Radio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2px;
+  border-radius: 5px;
+}
+
+.Card {
+  width: 30%;
+  margin: auto;
+  padding: 15px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.Card > h2 {
+  color: #9f10ca;
+}
+
+.Card>button{
+    padding:5px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .main_container {
+    width: 70%;
+  }
+  .Document > span{
+    width:50%;
+  }
+
+  .main_container > div h3 {
+    width: 90%;
+  }
+
+  .Card {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .main_container {
+    width: 50%;
+  }
+  .Card {
+    width: 50%;
+  }
+
+   .Document > span{
+    width:70%;
+  }
+  .main_container > div h3 {
+    width: 70%;
+  }
+}
